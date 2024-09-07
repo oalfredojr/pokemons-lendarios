@@ -12,7 +12,7 @@
     </header>
     <main>
         <section>
-            <input type="text" placeholder="Digite o nome do Pokémon ou poder" id="campo-pesquisa">
+            <input type="text" placeholder="Digite o nome do Pokémon ou poder" id="campo-pesquisa" onkeypress="verificarEnter(event)">
             <button onclick="pesquisar()">Pesquisar</button>
         </section>
         <section class="resultados-pesquisa" id="resultados-pesquisa">
@@ -22,7 +22,6 @@
         <p>2024 - Pokémon Lendários. Todos os direitos reservados</p>
         <p>Entre em contato pelo e-mail: contatoalfredo@live.com</p>
     </footer>
-    <script src="dados.js"></script>
-    <script src="app.js"></script>
+    <script src="app.js"></script> <!-- Removi o script 'dados.js' se não for necessário -->
 </body>
 </html>
