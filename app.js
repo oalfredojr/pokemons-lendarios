@@ -72,6 +72,8 @@ let pokemonsLendarios = [
     }
 ];
 
+console.log(pokemonsLendarios);
+
 function verificarEnter(event) {
     if (event.key === 'Enter') {
         pesquisar();
